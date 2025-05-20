@@ -2,12 +2,36 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
-	<Version>1.4.0</Version>
+
+	<!--Assembly info START-->
+	<AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+	<Description>XML Serialization util for serializing objects to and from objects, files and strings.</Description>
+	<Configuration />
+	<Company>Statens Kartverk</Company>
+	<Product>$(AssemblyName)</Product>
+	<Copyright>
+		Copyright © 2015 Arkitektum AS, 2025 Statens kartverk
+	</Copyright>
+	<ComVisible>false</ComVisible>
+	<AssemblyGuid>7d277290-9510-4d3b-9c02-45ef7afcea5d</AssemblyGuid>
 	<AssemblyVersion>1.4.0</AssemblyVersion>
-	<FileVersion>1.4.0</FileVersion>
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<!--Assembly info END-->
+  </PropertyGroup>
+  <PropertyGroup>
+	<Title>Serializing Utility</Title>
+	<Authors>Statens kartverk</Authors>
+	<PackageId>$(AssemblyName)</PackageId>
+	<PackageVersion>1.4.0</PackageVersion>
+	<PackageDescription />
+	<PackageTags>.NET .XML</PackageTags>
+	<PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	<PackageReleaseNotes>Converted to netstandard2.0</PackageReleaseNotes>
+	<RepositoryType>git</RepositoryType>
+	<RepositoryUrl>https://github.com/pamroe/GIS.Lib.SerializeUtil.git</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
+	<None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
