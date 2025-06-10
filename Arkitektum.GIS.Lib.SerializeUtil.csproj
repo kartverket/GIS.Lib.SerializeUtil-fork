@@ -21,7 +21,7 @@
 	<Title>Serializing Utility</Title>
 	<Authors>Statens kartverk</Authors>
 	<PackageId>$(AssemblyName)</PackageId>
-	<PackageVersion>1.4.0</PackageVersion>
+	<PackageVersion>1.4.0-alpha1</PackageVersion>
 	<PackageDescription />
 	<PackageTags>.NET .XML</PackageTags>
 	<PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
